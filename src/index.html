@@ -10,21 +10,28 @@
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./style.css"/>
     <script type="text/javascript" src=./"app.js"></script>
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
     <div class="container-fluid text-center">
       <h1 class="mt-5">Excuse generator!</h1>
+      <div>
       <img src="./rigo-baby.jpg" />
-      
-      <p id="excuse" class="alert alert-warning mt-4">
-        My dog eat my homework
-      </p>
-
+      </div>
       <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+        <p id="excuse" class="alert alert-warning mt-4">
+          My dog ate my homework
+          <script>
+            document.getElementById("excuse").innerHTML;
+          </script>
+        </p>
+        <div id="boton" onclick ="otra()">
+                            
+          Change the excuse
+           
+        </div>
       </div>
     </div>
   </body>
